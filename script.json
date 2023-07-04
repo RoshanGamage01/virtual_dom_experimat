@@ -1,20 +1,85 @@
 [
     {
-        "head": [],
+        "documentName": "index",
+        "head": {
+            "title": "Test Document"
+        },
         "elements": [
+            {
+                "name": "ul",
+                "attributes": [],
+                "html": [
+                    {
+                        "name": "li",
+                        "attributes": [],
+                        "html": [
+                            {
+                                "name": "a",
+                                "attributes": [
+                                    {
+                                        "name": "href",
+                                        "value": "about-us.html"
+                                    }
+                                ],
+                                "html": [],
+                                "text": "click"
+                            }
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "name": "li",
+                        "attributes": [],
+                        "html": [],
+                        "text": "item 2"
+                    },
+                    {
+                        "name": "li",
+                        "attributes": [],
+                        "html": [],
+                        "text": "item 3"
+                    }
+                ],
+                "text": ""
+            }
+        ]
+    },
+    {
+        "documentName": "about-us",
+        "head": {
+            "title": "about us"
+        },
+        "elements": [
+            {
+                "name": "h1",
+                "attributes": [
+                    {
+                        "name": "style",
+                        "value": "color: red;"
+                    }
+                ],
+                "html": [],
+                "text": "This is a about us page"
+            },
             {
                 "name": "div",
                 "attributes": [],
                 "html": [
                     {
-                        "name": "h1",
-                        "attributes": "",
+                        "name": "a",
+                        "attributes": [
+                            {
+                                "name": "href",
+                                "value": "index.html"
+                            }
+                        ],
                         "html": [],
-                        "text": "hello world!"
+                        "text": "back to home"
                     }
                 ],
-                "text": "I'm a text"
+                "text": ""
             }
+            
         ]
     }
 ]
