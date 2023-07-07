@@ -2,10 +2,19 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "Element.js",
+  "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoshanGamage01/virtual_dom_experimat.git"
+  },
+  "author": "Roshan Gamage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoshanGamage01/virtual_dom_experimat/issues"
+  },
+  "homepage": "https://github.com/RoshanGamage01/virtual_dom_experimat#readme"
 }
